@@ -1,0 +1,182 @@
+@media(max-width: 1200px){
+    html{
+        font-size: 55%;
+    }
+
+    .collectibles .all-cards .card {
+        width: 23%;
+    }
+
+}
+
+@media (max-width: 991px) {
+    html{
+        font-size: 45%;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .header{
+        z-index: 999;
+    }
+
+    .list {
+        position: fixed;
+        padding-top: 7rem;
+        left: -100%;
+        top: 70px;
+        z-index: 9;
+        background-color: var(---btnCard);
+        backdrop-filter: blur(10px);
+        height: 100vh;
+        width: 100%;
+        transition: 0.3s;
+        flex-direction: column;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .list li a {
+        font-size: 2.5rem;
+    }
+
+    .list.active {
+        left: 0;
+    }
+
+    .list.close {
+        visibility: hidden;
+    }
+
+    .hero .container{
+        padding-top: 10rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero .content{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5rem;
+    }
+
+    .hero .imgHero{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero .imgHero img{
+        width: 75%;
+    }
+
+    .hero .content h1, .hero .content p{
+        margin-bottom: 4rem;
+    }
+
+    .hero .content .btnPrimary{
+        font-size: 1.5rem;
+        border-radius: 10px;
+    }
+
+    .about .container{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about .content{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5rem;
+    }
+
+    .about .img-about{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about .img-about img{
+        width: 55%;
+    }
+
+
+    .collectibles .text{
+        text-align: center;
+    }
+
+    .collectibles .all-cards{
+        flex-direction: column;
+    }
+
+    .collectibles .all-cards .card{
+        width: 50%;
+    }
+
+    .holders .container{
+        flex-direction: column;
+    }
+
+    .holders .content{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5rem;
+    }
+
+    .holders .img-holder{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .holders .img-holder img{
+        width: 55%;
+    }
+    .footer .container .row {
+        text-align: center;
+        align-items: center;
+        gap: 5rem;
+        flex-direction: column;
+    }
+
+    .footer .col-3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer .col-3 p {
+        width: 100%;
+        max-width: 20rem;
+    }
+}
+
+@media (max-width: 500px){
+    html{
+        font-size: 35%;
+    }
+}

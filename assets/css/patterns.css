@@ -1,0 +1,35 @@
+h1,h2,h3{
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: -1px;
+    color: var(---white);
+}
+
+h1{font-size: 4.8rem;}
+h2{font-size: 3.2rem;}
+h3{font-size: 2.4rem;}
+
+p{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.btnPrimary{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem 5.2rem;
+    border-radius: 20px;
+    font-weight: 600;
+    background-color: var(---btnPrimary);
+    color: var(---black);
+    transition: all 0.3s;
+}
+
+.btnPrimary:hover{
+    transform: scale(1.01);
+    border-radius: 0;
+}
+
+ion-icon {
+    font-size: 2rem;
+}
