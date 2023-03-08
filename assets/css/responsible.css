@@ -122,16 +122,17 @@
 
 
     .collectibles .text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         text-align: center;
+        margin-bottom: 10rem;
     }
 
     .collectibles .all-cards{
-        flex-direction: column;
+        flex-wrap: wrap;
     }
 
-    .collectibles .all-cards .card{
-        width: 50%;
-    }
 
     .holders .container{
         flex-direction: column;
