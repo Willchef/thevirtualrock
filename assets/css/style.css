@@ -34,8 +34,15 @@
 
 .header .logo{
     display: flex;
-    align-items: start;
+    align-items: center;
+    justify-content: center;
 }
+
+.header .logo a img{
+    width: 100%;
+    max-width: 7rem;
+}
+
 .header .navBar{
     display: flex;
     align-items: center;
@@ -62,6 +69,7 @@
 ion-icon{
     z-index: 2;
 }
+
 .hero{
     width: 100%;
     padding: 10rem 0;
@@ -95,14 +103,18 @@ ion-icon{
     border-top-left-radius: 0;
 }
 
+
 .hero .imgHero{
     display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
     width: 100%;
     max-width: 50rem;
 }
 
 .hero .imgHero img{
     width: 100%;
+    max-width: 40rem;
 }
 
 .about{
@@ -136,14 +148,17 @@ ion-icon{
     border-top-left-radius: 0;
 }
 
-.about .imgAbout{
+.about .img-about{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
     width: 100%;
     max-width: 80rem;
 }
 
-.about .imgAbout img{
+.about .img-about img{
     width: 100%;
-    max-width: 70rem;
+    max-width: 50rem;
 }
 
 
@@ -161,8 +176,12 @@ ion-icon{
 
 .collectibles .text{
     width: 100%;
-    max-width: 30rem;
     margin-bottom: 5rem;
+}
+
+.collectibles .text h2{
+    width: 100%;
+    max-width: 20rem;
 }
 .collectibles .all-cards{
     display: flex;
@@ -184,8 +203,11 @@ ion-icon{
 }
 
 .all-cards .card img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    max-width: 50rem;
+    max-width: 30rem;
 }
 
 .all-cards .card h3{
@@ -228,10 +250,19 @@ ion-icon{
 }
 .holders .content .btnPrimary{   
     border-top-left-radius: 0;
-    width: 50%;
+    width: 60%;
+}
+
+.holders .img-holder{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 80rem;
 }
 .holders img{
     width: 100%;
+    max-width: 50rem;
 }
 
 
